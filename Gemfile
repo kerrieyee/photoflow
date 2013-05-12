@@ -38,11 +38,14 @@ gem 'jbuilder', '~> 1.0.1'
 # To use debugger
 gem 'debugger'
 group :test, :development do
-  gem "rspec-rails", "~> 2.0"
+  gem "rspec-rails", "~> 2.12"
+  gem 'factory_girl_rails'
+
 end
 
 group :test do
   gem 'cucumber-rails', :require => false
-  # database_cleaner is not required, but highly recommended
+  gem "shoulda-matchers"
   gem 'database_cleaner'
+
 end
