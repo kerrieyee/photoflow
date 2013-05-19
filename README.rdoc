@@ -1,28 +1,31 @@
-== README
+== What the hell should this app do?
+* Creates Public feeds of image posts content that can be sortable by #hashtags.
+* Allows users to have private feeds for a certain group of friends
+* Allows users to upvote and downvote images
+* Allows users to leave comments on each image
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+== Current Overview of the Tech Stack
 
-Things you may want to cover:
+* Ruby 2.0
+* Rails 4 beta
+* Backbone
+-- Testing
+* Factory Girl
+* Cucumber (I don't think I configured the selenium/webkit for this yet )
+* Rspec
+-- Database
+* Right now its sqlite3 I'm assuming we'll have to change it at some point if we want to do a real time app
+-- Not decided
+* Sass
+* Haml
+* Bootstrap 
 
-* Ruby version
+== Things to think about
+* What is MVP? 
+  * My thought process was to just start simple.  Public feed where anyone can comment, upvote, downvote, etc
+  * Essentially all the functionality before worrying about users.
+* Wondering if it would be worth it to let people follow other users? 
+* Also wondering if it should also incldue sharing any link not just images
+  * In other words a random place for people to share articles or images with a select group of friends?
+* Seriously I haven't really thought out this app... feel free to change anything from the tech stack to the actual project, whatever...this project is mainly so that I can play with rails 4 and backbone so if you're interested in trying out something just throw it in
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
