@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/scottwillson/database_cleaner.git
+  revision: 650bb117fa08f48c2a80df8284708a3afef18802
+  specs:
+    database_cleaner (0.9.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -27,11 +33,6 @@ GEM
       tzinfo (~> 0.3.33)
     arel (4.0.0)
     atomic (1.1.8)
-    backbone-on-rails (1.0.0.0)
-      eco
-      ejs
-      jquery-rails
-      rails (>= 3.1)
     builder (3.1.4)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -56,7 +57,6 @@ GEM
       capybara (>= 1.1.2)
       cucumber (>= 1.1.8)
       nokogiri (>= 1.5.0)
-    database_cleaner (0.9.1)
     debugger (1.5.0)
       columnize (>= 0.3.1)
       debugger-linecache (~> 1.2.0)
@@ -64,17 +64,17 @@ GEM
     debugger-linecache (1.2.0)
     debugger-ruby_core_source (1.2.0)
     diff-lcs (1.2.4)
-    eco (1.0.0)
-      coffee-script
-      eco-source
-      execjs
-    eco-source (1.1.0.rc.1)
-    ejs (1.1.1)
+    ejs (1.0.0)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
     factory_girl (4.2.0)
       activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.1)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
+    faker (1.1.2)
+      i18n (~> 0.5)
     gherkin (2.12.0)
       multi_json (~> 1.3)
     hike (1.2.2)
@@ -105,6 +105,10 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.0.0.beta1)
       sprockets-rails (~> 2.0.0.rc3)
+    rails-backbone (0.7.2)
+      coffee-script (~> 2.2.0)
+      ejs (~> 1.0.0)
+      railties (>= 3.1.0)
     railties (4.0.0.beta1)
       actionpack (= 4.0.0.beta1)
       activesupport (= 4.0.0.beta1)
@@ -163,15 +167,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  backbone-on-rails
   coffee-rails (~> 4.0.0.beta1)
   cucumber-rails
-  database_cleaner
+  database_cleaner!
   debugger
-  factory_girl
+  factory_girl_rails (~> 4.0)
+  faker
   jbuilder (~> 1.0.1)
   jquery-rails
   rails (= 4.0.0.beta1)
+  rails-backbone
   rspec-rails (~> 2.12)
   sass-rails (~> 4.0.0.beta1)
   shoulda-matchers

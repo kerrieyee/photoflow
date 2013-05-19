@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
-gem 'backbone-on-rails'
+gem 'rails-backbone'
 
 gem 'sqlite3'
 
@@ -38,14 +38,14 @@ gem 'jbuilder', '~> 1.0.1'
 # To use debugger
 gem 'debugger'
 group :test, :development do
-  gem "rspec-rails", "~> 2.12"
-  gem 'factory_girl_rails'
-
+  gem "factory_girl_rails", "~> 4.0"
+  gem 'faker'
 end
 
 group :test do
   gem 'cucumber-rails', :require => false
+  gem "rspec-rails", "~> 2.12"
   gem "shoulda-matchers"
-  gem 'database_cleaner'
-
+  gem 'database_cleaner', :git => 'git://github.com/scottwillson/database_cleaner.git'
+  #in rails 4 you need to explicitly get dbcleaner from the repo since there has been a fix for rails 4
 end

@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20130512190221) do
   create_table "posts", force: true do |t|
     t.string   "title"
     t.text     "caption"
+    t.string   "photo_url"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
