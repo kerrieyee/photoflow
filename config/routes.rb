@@ -1,6 +1,5 @@
 Photoflow::Application.routes.draw do
   root to: 'posts#index'
-  resources :posts
   scope "api" do
     resources :posts
   end

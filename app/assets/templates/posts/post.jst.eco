@@ -1,0 +1,2 @@
+<td><%=@post.get('title')%></td>
+<td><%=@post.get('photo_url')%></td>

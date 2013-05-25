@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc1'
-gem 'rails-backbone', '~> 0.9.10'
+gem 'backbone-on-rails', '~> 1.0.0'
 
 gem 'sqlite3'
 
