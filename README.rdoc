@@ -1,3 +1,16 @@
+==How to rebase
+* git checkout master
+* git fetch
+* git pull
+* git rebase master branch_name
+* git checkout master
+* git merge branch_name
+* git push origin master (I think you can also just do a git push)
+
+-if you get rejected because a commit has randomly occured between you rebasing and pushing
+* git pull -r origin master (this will rebase your commits on top of the new one and see if you have merge conflicts)
+* git push origin master
+
 == What the hell should this app do?
 * Creates Public feeds of image posts content that can be sortable by #hashtags.
 * Allows users to have private feeds for a certain group of friends
