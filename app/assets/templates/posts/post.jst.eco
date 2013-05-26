@@ -1,2 +1,4 @@
-<td><%=@post.get('title')%></td>
-<td><%=@post.get('photo_url')%></td>
+<h2><%=@post.get('title')%></h2>
+<h3><span class="date"><%=@date%></span><span class="time"><%=@time%></span></h3>
+<img src="<%=@post.get('photo_url')%>"/>
+<p class="caption"><%=@post.get('caption')%></p>
