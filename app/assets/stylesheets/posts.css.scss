@@ -1,3 +1,54 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background-color: #7E7B76;
+}
+
+#main{
+	width: 60%;
+	margin: 50px auto 20px auto;
+	background-color: #161616;
+	font-family: 'Inder', sans-serif;
+	border-radius: 15px;
+	padding: 20px 0px;
+	color: #FFFFFF
+}
+
+
+.post{
+	width: 75%;
+	margin: 0px auto;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+}
+
+h2, h3{
+	text-align: right;
+}
+
+h3{
+	font-size: 15px;
+	font-weight: 400;
+}
+.time{
+	margin-left: 5px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+img{
+	width: 100%;
+	border: 1px solid white
+}
+.caption{
+	background-color: #FFF;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: black
+}

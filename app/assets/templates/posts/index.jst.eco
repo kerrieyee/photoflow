@@ -1,6 +1,2 @@
-<h1> Posts </h1>
-<table>
-	<tbody id="posts">
-			
-	</tbody>
-</table
+<h1> All Posts </h1>
+<div id="posts"></div>

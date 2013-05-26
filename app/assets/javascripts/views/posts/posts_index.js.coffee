@@ -6,11 +6,12 @@ class Photoflow.Views.PostsIndex extends Backbone.View
     @collection.on('reset', @render, this)
     @collection.on('add', @appendPost, this)
 
-  render: ->
+  render: =>
     $(@el).html(@template())
     @collection.each(@appendPost)
     this
 
   appendPost: (post)=>
     view = new Photoflow.Views.Post(model: post)
-    @$('#posts').prepend(view.render().el)
+    @$('#posts').html(view.render().el)
+
