@@ -35,6 +35,11 @@ gem 'jbuilder'
 
 # To use debugger
 gem 'debugger'
+
+group :development do
+	gem 'pry-rails'
+end
+
 group :test, :development do
   gem "factory_girl_rails"
   gem 'faker'
