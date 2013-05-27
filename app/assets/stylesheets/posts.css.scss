@@ -1,7 +1,9 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+//pink for sprites #E999DF
 @import "sprites";
+@import "pink_sprites";
 
 body{
 	background-color: #5E5D5F;
@@ -9,11 +11,11 @@ body{
 
 #main{
 	width: 60%;
-	margin: 50px auto 20px auto;
+	margin: 50px auto 50px auto;
 	background-color: #161616;
 	font-family: 'Inder', sans-serif;
 	border-radius: 15px;
-	padding: 20px 0px;
+	padding: 20px 10px 50px 10px;
 	color: #FFFFFF
 }
 
@@ -35,17 +37,41 @@ body{
 	}
 	img{
 		width: 100%;
-		border: 1px solid white
+		border: 1px solid white;
 	}
 	.caption{
+		color: white;
+		font-style: italic;
+		font-size: 16px;
+		margin-top: 0px;
+	}
+	.comment{
 		background-color: #FFF;
 		border-radius: 10px;
 		padding: 10px;
 		margin-bottom: 10px;
 		color: black
 	}
-	a.comment-link{
-		color: white
+	.comment-links{
+		margin-top: 20px;
+		span{
+			display: inline-block
+		}
+		.text{
+			text-decoration: underline
+		}
+		.icon{
+			position: relative;
+			top: 8px;
+			margin-right: 6px;
+		}
+		a{
+			color: white;
+			font-size: 20px;
+		}
+		a:hover{
+			color: #99E3E9;
+		}
 	}
 }
 

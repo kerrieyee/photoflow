@@ -4,5 +4,6 @@
 <%if @post.get('caption') != null: %>
 	<p class="caption"><%=@post.get('caption')%></p>
 <%end%>
-<a href="#" class="comment-link">comments</a>
-<span class="icon icon-heart"></span>
+<div class="comment-links">
+  <a href="#"><span class="icon pink-icon-heart"></span><span class="text">comments</span></a>
+</div>
