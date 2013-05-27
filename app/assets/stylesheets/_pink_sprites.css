@@ -1,344 +1,344 @@
-.icon-search,.icon-trashcan,.icon-lollipop,.icon-star,.icon-heart,.icon-umbrella,.icon-flower,.icon-thumbs-up,.icon-thumbs-down,.icon-refresh,.icon-drink,.icon-coffee,.icon-mug,.icon-ice-cream,.icon-cake,.icon-marvin,.icon-pacman,.icon-smiley,.icon-sad,.icon-heart-plus,.icon-heart-minus,.icon-cloud-ul,.icon-cloud-dl,.icon-heart4,.icon-pacman2,.icon-star2,.icon-star3,.icon-pipe,.icon-yinyang,.icon-smile,.icon-pokemon,.icon-angrybirds,.icon-fantastico,.icon-concrete5,.icon-cmsmadesimple,.icon-trash,.icon-circleadd,.icon-circledelete,.icon-circleselect,.icon-comment,.icon-comment2,.icon-favorite,.icon-favorite2,.icon-sad2,.icon-blankstare,.icon-laugh,.icon-piggybank,.icon-starempty,.icon-starhalf,.icon-starfull,.icon-lifeempty,.icon-lifehalf,.icon-lifefull,.icon-clock,.icon-minus,.icon-plus,.icon-cancel,.icon-heart5,.icon-edit,.icon-trash2,.icon-search2,.icon-contract,.icon-star4,.icon-out,.icon-in,.icon-feather,.icon-attachment,.icon-heart6,.icon-chat,.icon-moon,.icon-cloud,.icon-heart7,.icon-heart8,.icon-star5,.icon-star6,.icon-heart9,.icon-plus2,.icon-minus2,.icon-cancel2,.icon-checkmark,.icon-cancel3,.icon-star7,.icon-pacman3,.icon-happy,.icon-heart10,.icon-cloud2,.icon-star8,.icon-diamond,.icon-bubble,.icon-news,.icon-like,.icon-fire,.icon-heart11,.icon-star9,.icon-star-empty,.icon-github-alt,.icon-chat-alt-stroke,.icon-at,.icon-info,.icon-question-mark,.icon-moon-stroke,.icon-cloud3,.icon-rain,.icon-download,.icon-upload {
+.pink-icon-search,.pink-icon-trashcan,.pink-icon-lollipop,.pink-icon-star,.pink-icon-heart,.pink-icon-umbrella,.pink-icon-flower,.pink-icon-thumbs-up,.pink-icon-thumbs-down,.pink-icon-refresh,.pink-icon-drink,.pink-icon-coffee,.pink-icon-mug,.pink-icon-ice-cream,.pink-icon-cake,.pink-icon-marvin,.pink-icon-pacman,.pink-icon-smiley,.pink-icon-sad,.pink-icon-heart2,.pink-icon-heart3,.pink-icon-cloud-ul,.pink-icon-cloud-dl,.pink-icon-heart4,.pink-icon-pacman2,.pink-icon-star2,.pink-icon-star3,.pink-icon-pipe,.pink-icon-yinyang,.pink-icon-smile,.pink-icon-pokemon,.pink-icon-angrybirds,.pink-icon-fantastico,.pink-icon-concrete5,.pink-icon-cmsmadesimple,.pink-icon-trash,.pink-icon-circleadd,.pink-icon-circledelete,.pink-icon-circleselect,.pink-icon-comment,.pink-icon-comment2,.pink-icon-favorite,.pink-icon-favorite2,.pink-icon-sad2,.pink-icon-blankstare,.pink-icon-laugh,.pink-icon-piggybank,.pink-icon-starempty,.pink-icon-starhalf,.pink-icon-starfull,.pink-icon-lifeempty,.pink-icon-lifehalf,.pink-icon-lifefull,.pink-icon-clock,.pink-icon-minus,.pink-icon-plus,.pink-icon-cancel,.pink-icon-heart5,.pink-icon-edit,.pink-icon-trash2,.pink-icon-search2,.pink-icon-contract,.pink-icon-star4,.pink-icon-out,.pink-icon-in,.pink-icon-feather,.pink-icon-attachment,.pink-icon-heart6,.pink-icon-chat,.pink-icon-moon,.pink-icon-cloud,.pink-icon-heart7,.pink-icon-heart8,.pink-icon-star5,.pink-icon-star6,.pink-icon-heart9,.pink-icon-plus2,.pink-icon-minus2,.pink-icon-cancel2,.pink-icon-checkmark,.pink-icon-cancel3,.pink-icon-star7,.pink-icon-pacman3,.pink-icon-happy,.pink-icon-heart10,.pink-icon-cloud2,.pink-icon-star8,.pink-icon-diamond,.pink-icon-bubble,.pink-icon-news,.pink-icon-like,.pink-icon-fire,.pink-icon-heart11,.pink-icon-star9,.pink-icon-star-empty,.pink-icon-github-alt,.pink-icon-chat-alt-stroke,.pink-icon-at,.pink-icon-info,.pink-icon-question-mark,.pink-icon-moon-stroke,.pink-icon-cloud3,.pink-icon-rain,.pink-icon-download,.pink-icon-upload {
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	background-image: url(sprites.png);
+	background-image: url(pink_sprites.png);
 	background-repeat: no-repeat;
 }
-.icon-search {
+.pink-icon-search {
 	background-position: 0 0;
 }
-.icon-trashcan {
+.pink-icon-trashcan {
 	background-position: -64px 0;
 }
-.icon-lollipop {
+.pink-icon-lollipop {
 	background-position: -128px 0;
 }
-.icon-star {
+.pink-icon-star {
 	background-position: -192px 0;
 }
-.icon-heart {
+.pink-icon-heart {
 	background-position: -256px 0;
 }
-.icon-umbrella {
+.pink-icon-umbrella {
 	background-position: -320px 0;
 }
-.icon-flower {
+.pink-icon-flower {
 	background-position: -384px 0;
 }
-.icon-thumbs-up {
+.pink-icon-thumbs-up {
 	background-position: -448px 0;
 }
-.icon-thumbs-down {
+.pink-icon-thumbs-down {
 	background-position: -512px 0;
 }
-.icon-refresh {
+.pink-icon-refresh {
 	background-position: -576px 0;
 }
-.icon-drink {
+.pink-icon-drink {
 	background-position: -640px 0;
 }
-.icon-coffee {
+.pink-icon-coffee {
 	background-position: -704px 0;
 }
-.icon-mug {
+.pink-icon-mug {
 	background-position: -768px 0;
 }
-.icon-ice-cream {
+.pink-icon-ice-cream {
 	background-position: -832px 0;
 }
-.icon-cake {
+.pink-icon-cake {
 	background-position: -896px 0;
 }
-.icon-marvin {
+.pink-icon-marvin {
 	background-position: -960px 0;
 }
-.icon-pacman {
+.pink-icon-pacman {
 	background-position: 0 -64px;
 }
-.icon-smiley {
+.pink-icon-smiley {
 	background-position: -64px -64px;
 }
-.icon-sad {
+.pink-icon-sad {
 	background-position: -128px -64px;
 }
-.icon-heart-plus {
+.pink-icon-heart2 {
 	background-position: -192px -64px;
 }
-.icon-heart-minus {
+.pink-icon-heart3 {
 	background-position: -256px -64px;
 }
-.icon-cloud-ul {
+.pink-icon-cloud-ul {
 	background-position: -320px -64px;
 }
-.icon-cloud-dl {
+.pink-icon-cloud-dl {
 	background-position: -384px -64px;
 }
-.icon-heart4 {
+.pink-icon-heart4 {
 	background-position: -448px -64px;
 }
-.icon-pacman2 {
+.pink-icon-pacman2 {
 	background-position: -512px -64px;
 	width: 33px;
 	height: 33px;
 }
-.icon-star2 {
+.pink-icon-star2 {
 	background-position: -576px -64px;
 	width: 34px;
 	height: 34px;
 }
-.icon-star3 {
+.pink-icon-star3 {
 	background-position: -640px -64px;
 	width: 34px;
 	height: 34px;
 }
-.icon-pipe {
+.pink-icon-pipe {
 	background-position: -704px -64px;
 }
-.icon-yinyang {
+.pink-icon-yinyang {
 	background-position: -768px -64px;
 }
-.icon-smile {
+.pink-icon-smile {
 	background-position: -832px -64px;
 }
-.icon-pokemon {
+.pink-icon-pokemon {
 	background-position: -896px -64px;
 }
-.icon-angrybirds {
+.pink-icon-angrybirds {
 	background-position: -960px -64px;
 }
-.icon-fantastico {
+.pink-icon-fantastico {
 	background-position: 0 -128px;
 }
-.icon-concrete5 {
+.pink-icon-concrete5 {
 	background-position: -64px -128px;
 }
-.icon-cmsmadesimple {
+.pink-icon-cmsmadesimple {
 	background-position: -128px -128px;
 }
-.icon-trash {
+.pink-icon-trash {
 	background-position: -192px -128px;
 }
-.icon-circleadd {
+.pink-icon-circleadd {
 	background-position: -256px -128px;
 }
-.icon-circledelete {
+.pink-icon-circledelete {
 	background-position: -320px -128px;
 }
-.icon-circleselect {
+.pink-icon-circleselect {
 	background-position: -384px -128px;
 }
-.icon-comment {
+.pink-icon-comment {
 	background-position: -448px -128px;
 }
-.icon-comment2 {
+.pink-icon-comment2 {
 	background-position: -512px -128px;
 }
-.icon-favorite {
+.pink-icon-favorite {
 	background-position: -576px -128px;
 }
-.icon-favorite2 {
+.pink-icon-favorite2 {
 	background-position: -640px -128px;
 }
-.icon-sad2 {
+.pink-icon-sad2 {
 	background-position: -704px -128px;
 }
-.icon-blankstare {
+.pink-icon-blankstare {
 	background-position: -768px -128px;
 }
-.icon-laugh {
+.pink-icon-laugh {
 	background-position: -832px -128px;
 }
-.icon-piggybank {
+.pink-icon-piggybank {
 	background-position: -896px -128px;
 }
-.icon-starempty {
+.pink-icon-starempty {
 	background-position: -960px -128px;
 }
-.icon-starhalf {
+.pink-icon-starhalf {
 	background-position: 0 -192px;
 }
-.icon-starfull {
+.pink-icon-starfull {
 	background-position: -64px -192px;
 }
-.icon-lifeempty {
+.pink-icon-lifeempty {
 	background-position: -128px -192px;
 }
-.icon-lifehalf {
+.pink-icon-lifehalf {
 	background-position: -192px -192px;
 }
-.icon-lifefull {
+.pink-icon-lifefull {
 	background-position: -256px -192px;
 }
-.icon-clock {
+.pink-icon-clock {
 	background-position: -320px -192px;
 }
-.icon-minus {
+.pink-icon-minus {
 	background-position: -384px -192px;
 }
-.icon-plus {
+.pink-icon-plus {
 	background-position: -448px -192px;
 }
-.icon-cancel {
+.pink-icon-cancel {
 	background-position: -512px -192px;
 	width: 35px;
 	height: 35px;
 }
-.icon-heart5 {
+.pink-icon-heart5 {
 	background-position: -576px -192px;
 }
-.icon-edit {
+.pink-icon-edit {
 	background-position: -640px -192px;
 }
-.icon-trash2 {
+.pink-icon-trash2 {
 	background-position: -704px -192px;
 }
-.icon-search2 {
+.pink-icon-search2 {
 	background-position: -768px -192px;
 }
-.icon-contract {
+.pink-icon-contract {
 	background-position: -832px -192px;
 	width: 35px;
 	height: 35px;
 }
-.icon-star4 {
+.pink-icon-star4 {
 	background-position: -896px -192px;
 	width: 35px;
 	height: 35px;
 }
-.icon-out {
+.pink-icon-out {
 	background-position: -960px -192px;
 }
-.icon-in {
+.pink-icon-in {
 	background-position: 0 -256px;
 }
-.icon-feather {
+.pink-icon-feather {
 	background-position: -64px -256px;
 }
-.icon-attachment {
+.pink-icon-attachment {
 	background-position: -128px -256px;
 }
-.icon-heart6 {
+.pink-icon-heart6 {
 	background-position: -192px -256px;
 	width: 33px;
 }
-.icon-chat {
+.pink-icon-chat {
 	background-position: -256px -256px;
 }
-.icon-moon {
+.pink-icon-moon {
 	background-position: -320px -256px;
 }
-.icon-cloud {
+.pink-icon-cloud {
 	background-position: -384px -256px;
 	width: 36px;
 }
-.icon-heart7 {
+.pink-icon-heart7 {
 	background-position: -448px -256px;
 }
-.icon-heart8 {
+.pink-icon-heart8 {
 	background-position: -512px -256px;
 }
-.icon-star5 {
+.pink-icon-star5 {
 	background-position: -576px -256px;
 }
-.icon-star6 {
+.pink-icon-star6 {
 	background-position: -640px -256px;
 }
-.icon-heart9 {
+.pink-icon-heart9 {
 	background-position: -704px -256px;
 }
-.icon-plus2 {
+.pink-icon-plus2 {
 	background-position: -768px -256px;
 }
-.icon-minus2 {
+.pink-icon-minus2 {
 	background-position: -832px -256px;
 }
-.icon-cancel2 {
+.pink-icon-cancel2 {
 	background-position: -896px -256px;
 }
-.icon-checkmark {
+.pink-icon-checkmark {
 	background-position: -960px -256px;
 }
-.icon-cancel3 {
+.pink-icon-cancel3 {
 	background-position: 0 -320px;
 }
-.icon-star7 {
+.pink-icon-star7 {
 	background-position: -64px -320px;
 	width: 35px;
 	height: 35px;
 }
-.icon-pacman3 {
+.pink-icon-pacman3 {
 	background-position: -128px -320px;
 	width: 35px;
 	height: 35px;
 }
-.icon-happy {
+.pink-icon-happy {
 	background-position: -192px -320px;
 	width: 35px;
 	height: 35px;
 }
-.icon-heart10 {
+.pink-icon-heart10 {
 	background-position: -256px -320px;
 	width: 34px;
 }
-.icon-cloud2 {
+.pink-icon-cloud2 {
 	background-position: -320px -320px;
 }
-.icon-star8 {
+.pink-icon-star8 {
 	background-position: -384px -320px;
 }
-.icon-diamond {
+.pink-icon-diamond {
 	background-position: -448px -320px;
 }
-.icon-bubble {
+.pink-icon-bubble {
 	background-position: -512px -320px;
 }
-.icon-news {
+.pink-icon-news {
 	background-position: -576px -320px;
 }
-.icon-like {
+.pink-icon-like {
 	background-position: -640px -320px;
 }
-.icon-fire {
+.pink-icon-fire {
 	background-position: -704px -320px;
 }
-.icon-heart11 {
+.pink-icon-heart11 {
 	background-position: -768px -320px;
 }
-.icon-star9 {
+.pink-icon-star9 {
 	background-position: -832px -320px;
 }
-.icon-star-empty {
+.pink-icon-star-empty {
 	background-position: -896px -320px;
 }
-.icon-github-alt {
+.pink-icon-github-alt {
 	background-position: -960px -320px;
 }
-.icon-chat-alt-stroke {
+.pink-icon-chat-alt-stroke {
 	background-position: 0 -384px;
 }
-.icon-at {
+.pink-icon-at {
 	background-position: -64px -384px;
 }
-.icon-info {
+.pink-icon-info {
 	background-position: -128px -384px;
 }
-.icon-question-mark {
+.pink-icon-question-mark {
 	background-position: -192px -384px;
 	height: 16px;
 }
-.icon-moon-stroke {
+.pink-icon-moon-stroke {
 	background-position: -256px -384px;
 }
-.icon-cloud3 {
+.pink-icon-cloud3 {
 	background-position: -320px -384px;
 }
-.icon-rain {
+.pink-icon-rain {
 	background-position: -384px -384px;
 }
-.icon-download {
+.pink-icon-download {
 	background-position: -448px -384px;
 }
-.icon-upload {
+.pink-icon-upload {
 	background-position: -512px -384px;
 }
