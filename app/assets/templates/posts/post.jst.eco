@@ -7,3 +7,14 @@
 <div class="comment-links">
   <a href="#"><span class="icon pink-icon-heart"></span><span class="text">comments</span></a>
 </div>
+<div class="comments">
+  <div class="comment">
+    <p class="content">FAKE COMMENT HARD CODED in the post.jst.eco file just for layout purposes can be deleted...</p>
+    <p>- Name(date) </p>
+  </div>
+
+  <div class="comment">
+    <p class="content">FAKE COMMENT HARD CODED in the post.jst.eco file just for layout purposes can be deleted...</p>
+    <p>- Name(date) </p>
+  </div>
+</div>
