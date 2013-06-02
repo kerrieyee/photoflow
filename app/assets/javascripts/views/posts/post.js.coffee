@@ -5,13 +5,13 @@ class Photoflow.Views.Post extends Backbone.View
   className: 'post'
 
   initialize: ->
-    $(@el).attr('id', @model.get('id'))
+    $(this.el).attr('id', this.model.get('id'))
 
   render: ->
-    newDate = new Date(@model.get('created_at'))
+    newDate = new Date(this.model.get('created_at'))
     dateString = newDate.toGMTString()
     dateArray = dateString.split(" ")
     date = dateArray.slice(0, 4).join(" ")
     time = dateArray.slice(4).join(" ")
-    $(@el).html(@template(post: @model, date: date, time: time))
+    $(this.el).html(this.template(post: this.model, date: date, time: time))
     this

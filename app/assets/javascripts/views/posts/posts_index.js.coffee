@@ -3,14 +3,14 @@ class Photoflow.Views.PostsIndex extends Backbone.View
   template: JST['posts/index']
 
   initialize: ->
-    @collection.on('reset', @render, this)
-    @collection.on('add', @appendPost, this)
+    this.collection.on('reset', this.render, this)
+    this.collection.on('add', this.appendPost, this)
 
   render: =>
-    $(@el).html(@template())
-    @collection.each(@appendPost)
+    $(this.el).html(this.template())
+    this.collection.each(this.appendPost)
     this
 
   appendPost: (post)=>
     view = new Photoflow.Views.Post(model: post)
-    @$('#posts').prepend(view.render().el)
+    this.$('#posts').prepend(view.render().el)
