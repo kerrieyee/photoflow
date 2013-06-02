@@ -4,9 +4,9 @@ class Photoflow.Routers.Posts extends Backbone.Router
     '': 'index'
   
   initialize: ->
-    @collection = new Photoflow.Collections.Posts()
-    @collection.fetch()
+    this.collection = new Photoflow.Collections.Posts()
+    this.collection.fetch()
 
   index: ->
-    view = new Photoflow.Views.PostsIndex(collection: @collection)
+    view = new Photoflow.Views.PostsIndex(collection: this.collection)
     $('#main').html(view.render().el)
