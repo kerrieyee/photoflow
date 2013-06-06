@@ -10,8 +10,6 @@ class PostsController < ApplicationController
 												photo_url: params[:url],
 												user: params[:user],
 												caption: params[:caption])
-		p @post
-		p @post.errors
 		respond_with @post
 	end
 

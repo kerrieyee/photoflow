@@ -19,6 +19,18 @@ body{
 	color: #FFFFFF
 }
 
+input, textarea{
+	border-radius: 5px;
+	padding: 3px;
+}
+.error{
+	color: red;
+	font-size: 12px;
+}
+
+input.red{
+	border: 1px solid red;
+}
 
 .post{
 	width: 75%;
