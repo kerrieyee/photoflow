@@ -5,17 +5,14 @@ class PostsController < ApplicationController
 		respond_with @posts
 	end
 
-	def new
-		@post = Post.new
-		respond_with @post
-	end
-
 	def create
-		@post = Post.create(params[:post])
+		@post = Post.create(title: params[:title],
+												photo_url: params[:url],
+												user: params[:user],
+												caption: params[:caption])
+		p @post
+		p @post.errors
 		respond_with @post
-	end
-
-	def edit
 	end
 
 	def update
