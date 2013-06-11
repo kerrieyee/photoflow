@@ -4,9 +4,10 @@ class Photoflow.Views.PostsIndex extends Backbone.View
 
   events:
     'submit #new_post': 'createPost'
+    'click .new': 'toggleForm'
 
   initialize: ->
-    _.bindAll 'createPost'
+    _.bindAll(this, 'createPost', 'toggleForm')
     this.collection.on('reset', this.render, this)
     this.collection.on('add', this.appendPost, this)
 
@@ -14,6 +15,13 @@ class Photoflow.Views.PostsIndex extends Backbone.View
     $(this.el).html(this.template())
     this.collection.each(this.appendPost)
     this
+
+  toggleForm: (event) ->
+    $('form').toggle()
+    if $('span.icon-plus').length == 0
+      $('span.icon-minus').replaceWith("<span class='icon icon-plus'></span>")
+    else
+      $('span.icon-plus').replaceWith("<span class='icon icon-minus'></span>")
 
   appendPost: (post)=>
     view = new Photoflow.Views.Post(model: post)

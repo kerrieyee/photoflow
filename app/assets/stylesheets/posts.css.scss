@@ -19,28 +19,72 @@ body{
 	color: #FFFFFF
 }
 
-input, textarea{
-	border-radius: 5px;
-	padding: 3px;
-}
-.error{
-	color: red;
-	font-size: 12px;
-}
-
-input.red{
-	border: 1px solid red;
-}
-
-.post{
+.main-content{
 	width: 75%;
 	margin: 40px auto 50px auto;
-	h2, h3{
+}
+
+.new{
+	font-size: 29px;
+	text-align: center;
+	color: #E7F2F3;
+	background-color: #47BCCC;
+	cursor: pointer;
+	border-radius: 35px;
+	width: 50%;
+	margin: 35px auto 17px auto;
+	padding-bottom: 5px;
+	span.icon{
+		position: relative;
+		top: 7px
+	}
+}
+
+form{
 	text-align: right;
+	display: none;
+	width: 267px;
+	margin: 0 auto;
+	input, textarea{
+		margin-top: 15px;
+		border-radius: 5px;
+		padding: 3px;
+		border: 2px solid #94EAF1
+	}
+	textarea{
+		width: 96%;
+	}
+	.error{
+		color: red;
+		font-size: 12px;
+	}
+	input{
+		height: 20px;
+		&.red{
+			border: 1px solid red;
+		}
+		&#new_post_url{
+			width: 96%;
+		}
+	}
+	.submit{
+		color: #E7F2F3;
+		background-color: #47BCCC;
+		// background-color: #FFE4C4;
+		border: 1px solid #47BCCC;
+		padding: 2px 4px 3px 3px;
+		font-family: 'Inder', sans-serif;
+	}
+}
+
+
+.post{
+	h2, h3{
+		text-align: right;
 	}
 	h3{
-	font-size: 15px;
-	font-weight: 400;
+		font-size: 15px;
+		font-weight: 400;
 	}
 	.time{
 		margin-left: 5px;
@@ -48,7 +92,7 @@ input.red{
 		font-weight: normal;
 	}
 	img{
-		width: 100%;
+		max-width: 100%;
 		border: 1px solid white;
 	}
 	.caption{
@@ -93,6 +137,8 @@ input.red{
 h1{
 	text-align: center;
 	font-family: 'Josefin Slab', serif;
+	font-size: 45px;
+	margin-bottom: 5px;
 }
 
 
