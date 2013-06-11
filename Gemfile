@@ -38,6 +38,7 @@ gem 'debugger'
 
 group :development do
 	gem 'pry-rails'
+	gem 'rack-mini-profiler'
 end
 
 group :test, :development do
