@@ -39,7 +39,6 @@ class Photoflow.Views.PostsIndex extends Backbone.View
       wait: true
       success: ->
         $('#new_post')[0].reset()
-        debugger
         $("input[class='name red']").attr('class', 'name')
         $("input[class='url red']").attr('class', 'url')
 

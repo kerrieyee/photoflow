@@ -32,14 +32,13 @@ body{
 	cursor: pointer;
 	border-radius: 35px;
 	width: 50%;
-	margin: 35px auto 17px auto;
+	margin: 35px auto 35px auto;
 	padding-bottom: 5px;
 	span.icon{
 		position: relative;
 		top: 7px
 	}
 }
-
 form{
 	text-align: right;
 	display: none;
@@ -79,6 +78,10 @@ form{
 
 
 .post{
+	text-align: center;
+	div.comment-links, p{
+		text-align: left;
+	}
 	h2, h3{
 		text-align: right;
 	}
@@ -100,6 +103,7 @@ form{
 		font-style: italic;
 		font-size: 16px;
 		margin-top: 0px;
+		text-align: center;
 	}
 	.comment{
 		background-color: #FFF;
@@ -112,7 +116,7 @@ form{
 		margin-top: 30px
 	}
 	.comment-links{
-		margin-top: 20px;
+		margin-top: 40px;
 		span{
 			display: inline-block
 		}
