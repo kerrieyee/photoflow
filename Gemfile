@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0.rc1'
+gem 'rails', '4.0.0.rc2'
 gem 'backbone-on-rails', '~> 1.0.0'
 
 gem 'sqlite3'
@@ -43,11 +43,12 @@ end
 
 group :test, :development do
   gem "factory_girl_rails"
+  gem "jasmine", :git => 'git://github.com/pivotal/jasmine-gem.git'
   gem 'faker'
 end
 
 group :test do
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', :require => false, :git => 'git://github.com/cucumber/cucumber-rails.git', :branch => 'master_rails4_test'
   gem "rspec-rails", "~> 2.12"
   gem "shoulda-matchers"
   gem 'database_cleaner', :git => 'git://github.com/scottwillson/database_cleaner.git'
