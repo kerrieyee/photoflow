@@ -34,18 +34,21 @@ class Photoflow.Views.PostsIndex extends Backbone.View
       user: $('#new_post_user').val()
       url: $('#new_post_url').val()
       caption: $('#new_post_caption').val()
-    this.validate(attributes)
-    this.collection.create attributes,
-      wait: true
-      success: ->
-        $('#new_post')[0].reset()
-        $("input[class='name red']").attr('class', 'name')
-        $("input[class='url red']").attr('class', 'url')
+    if this.validate(attributes)
+      this.collection.create attributes,
+        wait: true
+        success: ->
+          $('#new_post')[0].reset()
+          $("input[class='name red']").attr('class', 'name')
+          $("input[class='url red']").attr('class', 'url')
 
   validate: (attributes)->
     if !attributes.user
       this.$el.find('.user-errors').text("name is required")
       this.$el.find("input[class='name']").addClass('red')
-    if !attributes.url
-      this.$el.find('.url-errors').text("a photo url is required")
+      return false
+    if !attributes.url || attributes.url.match(/.jpg$|.png$|.jpeg$|.gif$/) == null
+      this.$el.find('.url-errors').text("a photo url (.jpg, .png, .jpeg, .gif) is required")
       this.$el.find("input[class='url']").addClass('red')
+      return false
+    return true
