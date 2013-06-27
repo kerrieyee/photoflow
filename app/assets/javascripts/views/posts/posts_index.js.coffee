@@ -4,26 +4,24 @@ class Photoflow.Views.PostsIndex extends Backbone.View
 
   events:
     'submit #new_post': 'createPost'
-    'click .new': 'toggleForm'
 
   initialize: ->
-    _.bindAll(this, 'createPost', 'toggleForm')
+    _.bindAll(this, 'createPost')
     this.collection.on('reset', this.render, this)
     this.collection.on('add', this.appendPost, this)
 
   render: =>
     $(this.el).html(this.template())
+    this.addForm()
     this.collection.each(this.appendPost)
     this
 
-  toggleForm: (event) ->
-    $('form').toggle()
-    if $('span.icon-plus').length == 0
-      $('span.icon-minus').replaceWith("<span class='icon icon-plus'></span>")
-    else
-      $('span.icon-plus').replaceWith("<span class='icon icon-minus'></span>")
+  addForm: (post)=>
+    view = new Photoflow.Views.Form(model: post)
+    this.$('.new-post-form').append(view.render())
 
   appendPost: (post)=>
+    console.log("append")
     view = new Photoflow.Views.Post(model: post)
     this.$('#posts').prepend(view.render().el)
 
@@ -34,21 +32,11 @@ class Photoflow.Views.PostsIndex extends Backbone.View
       user: $('#new_post_user').val()
       url: $('#new_post_url').val()
       caption: $('#new_post_caption').val()
-    if this.validate(attributes)
-      this.collection.create attributes,
-        wait: true
-        success: ->
-          $('#new_post')[0].reset()
-          $("input[class='name red']").attr('class', 'name')
-          $("input[class='url red']").attr('class', 'url')
+    this.collection.create attributes,
+      wait: true
+      validate: true
+      success: ->
+        $('#new_post')[0].reset()
+        $("input[class='name red']").attr('class', 'name')
+        $("input[class='url red']").attr('class', 'url')
 
-  validate: (attributes)->
-    if !attributes.user
-      this.$el.find('.user-errors').text("name is required")
-      this.$el.find("input[class='name']").addClass('red')
-      return false
-    if !attributes.url || attributes.url.match(/.jpg$|.png$|.jpeg$|.gif$/) == null
-      this.$el.find('.url-errors').text("a photo url (.jpg, .png, .jpeg, .gif) is required")
-      this.$el.find("input[class='url']").addClass('red')
-      return false
-    return true

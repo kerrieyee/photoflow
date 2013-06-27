@@ -1,21 +1,6 @@
 <div class="main-content">
   <h1> Daily Feed: Name of Feed </h1>
-
-  <p class="new">
-    New Post
-    <span class="icon icon-plus"></span>
-  </p>
-  <form id="new_post">
-    <input type="text" name="title" id="new_post_title" placeholder="title(optional)">
-    <input type="text" name="user" id="new_post_user" placeholder="enter your name" class="name">
-    <span class="user-errors error"></span><br/>
-
-    <input type="text" name="url" id="new_post_url" placeholder="enter a photo url", class="url">
-    <span class="url-errors error"></span><br/>
-
-    <textarea name="caption" id="new_post_caption" placeholder="enter a caption here (optional)"  cols="30" rows="3"></textarea>
-    <br/>
-    <input class="submit" type="submit" value="Create New Post">
-  </form>
+  <div class="new-post-form">
+  </div>
   <div id="posts"></div>
 </div>
