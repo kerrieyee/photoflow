@@ -8,7 +8,6 @@ class PostsController < ApplicationController
 	def create
 		@post = Post.create(title: params[:title],
 												photo_url: params[:url],
-												user: params[:user],
 												caption: params[:caption])
 		respond_with @post
 	end

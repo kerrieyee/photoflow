@@ -1,5 +1,7 @@
 Photoflow::Application.routes.draw do
   root to: 'posts#index'
+  get '/signup', to: "users#new", as: "signup"
+  resources :users
   scope "api" do
     resources :posts
   end

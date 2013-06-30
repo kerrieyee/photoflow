@@ -29,7 +29,6 @@ class Photoflow.Views.PostsIndex extends Backbone.View
     event.preventDefault()
     attributes =
       title: $('#new_post_title').val()
-      user: $('#new_post_user').val()
       url: $('#new_post_url').val()
       caption: $('#new_post_caption').val()
     this.collection.create attributes,

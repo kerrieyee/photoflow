@@ -4,8 +4,6 @@
 </p>
 <form id="new_post">
   <input type="text" name="title" id="new_post_title" placeholder="title(optional)">
-  <input type="text" name="user" id="new_post_user" placeholder="enter your name" class="name">
-  <span class="user-errors error"></span><br/>
 
   <input type="text" name="url" id="new_post_url" placeholder="enter a photo url", class="url">
   <span class="url-errors error"></span><br/>
