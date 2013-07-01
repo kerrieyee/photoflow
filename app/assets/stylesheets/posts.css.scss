@@ -5,20 +5,6 @@
 @import "sprites";
 @import "pink_sprites";
 
-body{
-	background-color: #BDBFC4;
-}
-
-#main{
-	width: 60%;
-	margin: 50px auto 50px auto;
-	background-color: #161616;
-	font-family: 'Inder', sans-serif;
-	border-radius: 15px;
-	padding: 20px 10px 50px 10px;
-	color: #FFFFFF
-}
-
 .main-content{
 	width: 75%;
 	margin: 40px auto 50px auto;
@@ -44,35 +30,21 @@ body{
 		display: none;
 		width: 267px;
 		margin: 0 auto;
-		input, textarea{
-			margin-top: 15px;
-			border-radius: 5px;
-			padding: 3px;
-			border: 2px solid #94EAF1
-		}
-		textarea{
-			width: 96%;
-		}
 		.error{
 			color: red;
 			font-size: 12px;
+		}
+		textarea{
+			width: 96%;
 		}
 		input{
 			height: 20px;
 			&.red{
 				border: 1px solid red;
 			}
-			&#new_post_url{
+			&#new_post_url, &#new_post_title{
 				width: 96%;
 			}
-		}
-		.submit{
-			color: #E7F2F3;
-			background-color: #47BCCC;
-			// background-color: #FFE4C4;
-			border: 1px solid #47BCCC;
-			padding: 2px 4px 3px 3px;
-			font-family: 'Inder', sans-serif;
 		}
 	}
 }
