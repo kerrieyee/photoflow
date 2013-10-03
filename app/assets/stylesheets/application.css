@@ -34,8 +34,29 @@ input, textarea{
 .submit{
 	color: #E7F2F3;
 	background-color: #47BCCC;
-	// background-color: #FFE4C4;
 	border: 1px solid #47BCCC;
 	padding: 2px 4px 3px 3px;
 	font-family: 'Inder', sans-serif;
+}
+.clear{
+	clear: both;
+}
+.signup{
+	text-align: center;
+}
+
+form{
+	width: 400px;
+	margin: 0 auto;
+}
+form input {
+	height: 20px;
+	width: 50%;
+}
+	
+.left{
+	float: left;
+}
+.right{
+	float: right;
 }

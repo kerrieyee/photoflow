@@ -1,3 +1,30 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+p.submit-button{
+	.submit{
+		font-size: 15px;
+		padding: 4px;
+		height: 100%;
+		width: 53%;
+	}
+}
+
+.left{
+	width: 40%
+}
+.right{
+	width: 60%;
+}
+form{
+	width: 460px;
+}
+label{
+	display: block;
+	text-align: right;
+	padding-top: 10px;
+	margin-right: 10px;
+}
+input{
+	margin-top: 15px;
+}
