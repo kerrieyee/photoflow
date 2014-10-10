@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0.rc2'
+gem 'rails'
 gem 'backbone-on-rails', '~> 1.0.0'
 
 gem 'sqlite3'
@@ -34,7 +34,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # gem 'capistrano', group: :development
 
 # To use debugger
-gem 'debugger'
+# gem 'debugger'
 
 group :development do
 	gem 'pry-rails'
@@ -49,7 +49,7 @@ end
 
 group :test do
   gem 'cucumber-rails', :require => false, :git => 'git://github.com/cucumber/cucumber-rails.git', :branch => 'master_rails4_test'
-  gem "rspec-rails", "~> 2.12"
+  gem "rspec-rails"
   gem "shoulda-matchers"
   gem 'database_cleaner', :git => 'git://github.com/scottwillson/database_cleaner.git'
   #in rails 4 you need to explicitly get dbcleaner from the repo since there has been a fix for rails 4
